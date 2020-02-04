@@ -6,11 +6,14 @@ header {
     display: flex;
     justify-content: center;
     color: $textColor;
+    button {
+        background: $primaryBtn;
+    }
 }
 
-header button {
-    background: $primaryBtn ;
-}
+// header button {
+//     background: $primaryBtn ;
+// }
 
 .contact button {
     background: $primaryBtn ;
