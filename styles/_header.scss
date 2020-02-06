@@ -1,0 +1,16 @@
+header {
+    background-color: greenyellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+    button {
+        background: $primaryBtn;
+        &:hover {
+            background-color: red;
+        }
+        // &::after {
+        //     content: "indonesia";
+        // }
+    }
+}
